@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '../../button';
 import ModeToggle from './mode-toggle';
+import Menu from './menu';
 
 
 const Header = () => {
@@ -28,6 +29,7 @@ const Header = () => {
                     </Link>
                 </Button>
             </div>
+            <Menu />
         </div>
     </header>
     )
